@@ -383,8 +383,15 @@
 									"listen": "prerequest",
 									"script": {
 										"id": "3bbf9a58-150d-4c35-906a-c4b210d7e1ec",
-										"exec": [],
-										"type": "text/javascript"
+										"exec": [
+											"pm.sendRequest({\r",
+											"  \r",
+											"\r",
+											"})"
+										],
+										"type": "text/javascript",
+										"packages": {},
+										"requests": {}
 									}
 								}
 							],
